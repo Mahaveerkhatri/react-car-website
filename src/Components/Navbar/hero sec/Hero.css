@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero.css */
+#bg {
+    height: 100vh; /* Sets the height of the hero section to 100% of the viewport height */
+    width: 100%; /* Sets the width to 100% */
+    background-image: url('/src/assets/photo-1485291571150-772bcfc10da5.jpeg'); /* Replace with the correct path to your image */
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex; /* Allows for easy centering of content inside */
+    align-items: start; /* Vertically centers content */
+    justify-content: start; /* Horizontally centers content */
+    color: white; /* Optional: sets text color to white for better contrast */
+    overflow-y: hidden;
+  }
+  
